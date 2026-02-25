@@ -1,11 +1,125 @@
-.tamanho {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    padding: 4px;
+#main{
+    background-color: white;
 }
 
-#tamanho{
-    background-color: rgb(0, 0, 0);
+
+#primeira_linha{
     display: flex;
-    padding: 6px;
+    gap: 20px;
 }
+#segunda_linha{
+    display: flex;
+    gap: 20px;
+}
+#terceira_linha{
+    display: flex;
+    gap: 20px;
+}
+
+.tamanho {
+    background-color: rgb(134, 207, 255);
+    width: 1230;
+    border-radius: 14px;
+    display: flex;
+    padding: 75px; 
+    margin: 10px;
+}
+.tamanho2{
+    background-color: rgb(134, 207, 255);
+    width: 400px;
+    border-radius: 14px;
+    display: flex;
+    padding: 75px;
+    margin: 10px; 
+}
+
+#imagem-robo {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Primeiro quadrado */
+
+.texto_bloco1 {
+    color: rgb(0, 0, 145);
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+}
+
+#tx1 {
+    color: rgb(0, 0, 145);
+    font-family: 'Montserrat', sans-serif;
+
+    width: 275px;
+}
+
+#seta_azul{
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#material {
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 275;
+    border-radius: 14px;
+    font-size: 14;
+    text-align: center;
+}
+#servico{
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 275;
+    border-radius: 14px;
+    font-size: 14;
+    align-items: center;
+    text-align: center;
+}
+#consultar{
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 275;
+    border-radius: 14px;
+    font-size: 14;
+    text-align: center;
+}
+#requisicoes{
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: ;
+    width: 275;
+    border-radius: 14px;
+    font-size: 14;
+    text-align: center;
+}
+#ajuda{
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 275;
+    border-radius: 14px;
+    font-size: 14;
+    text-align: center;
+}
+
+.fale_comigo {
+    background-color: rgb(0, 0, 145);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 120px;
+    border-radius: 14px;
+    font-size: 8;
+}
+
+
+
