@@ -146,6 +146,7 @@
 
 
 
+/*Parte pg1*/
 #hd_pg{
     padding: 1px;
 }
@@ -155,6 +156,12 @@
     height: 20px;
 }
 
-#aba{
-    height: 100vh;
+.aba{
+    height: 812px;
+}
+.centro{
+    display: flex;
+}
+.tbl_esq{
+    margin: 0px auto auto 50px;
 }
