@@ -165,3 +165,8 @@
 .tbl_esq{
     margin: 0px auto auto 50px;
 }
+.titulos_tbls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
