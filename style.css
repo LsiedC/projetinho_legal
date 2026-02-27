@@ -8,7 +8,7 @@
 .tamanho {
     background-color: rgb(0, 0, 0);
     display: flex;
-    padding: 4px;
+    padding: 4px;''
 }
 
 
@@ -16,39 +16,7 @@
     display: flex;
     gap: 20px;
 }
-#segunda_linha{
-    display: flex;
-    gap: 20px;
-}
-#terceira_linha{
-    display: flex;
-    gap: 20px;
-}
-
-.tamanho {
-    background-color: rgb(134, 207, 255);
-    width: 1230;
-    border-radius: 14px;
-    display: flex;
-    padding: 75px; 
-    margin: 10px;
-}
-.tamanho2{
-    background-color: rgb(134, 207, 255);
-    width: 400px;
-    border-radius: 14px;
-    display: flex;
-    padding: 75px;
-    margin: 10px; 
-}
-
-#imagem-robo {
-    width: 150px;
-    height: auto;
-    margin: 10px;
-}
-
-/* Primeiro quadrado */
+/* Primeiro quadrado, Primeira linha*//* Primeiro quadrado, Primeira linha*//* Primeiro quadrado, Primeira linha*/
 
 .texto_bloco1 {
     color: rgb(0, 0, 145);
@@ -103,7 +71,7 @@
 #requisicoes{
     background-color: rgb(0, 0, 145);
     color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 275;
     border-radius: 14px;
     font-size: 14;
@@ -129,6 +97,54 @@
     border-radius: 14px;
     font-size: 8;
 }
+/* Segundo quadrado, Primeira linha*//* Segundo quadrado, Primeira linha*//* Segundo quadrado, Primeira linha*/
+
+.status_pedido {
+    color: rgb(0, 0, 145);
+    font-size: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.all_pedidos {
+    color: rgb(0, 0, 145);
+    font-size: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#segunda_linha{
+    display: flex;
+    gap: 20px;
+}
+#terceira_linha{
+    display: flex;
+    gap: 20px;
+}
+
+.tamanho {
+    background-color: rgb(134, 207, 255);
+    width: 1230;
+    border-radius: 14px;
+    display: flex;
+    padding: 75px; 
+    margin: 10px;
+}
+.tamanho2{
+    background-color: rgb(134, 207, 255);
+    width: 400px;
+    border-radius: 14px;
+    display: flex;
+    padding: 75px;
+    margin: 10px; 
+}
+
+#imagem-robo {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+
 
 #hd_pg{
     padding: 1px;
