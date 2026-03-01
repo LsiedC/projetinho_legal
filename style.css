@@ -3,37 +3,48 @@
     padding: 0px;
 }
 .tamanho {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(134, 207, 255);
+    width: 1230;
+    border-radius: 14px;
     display: flex;
-    padding: 4px;
+    padding: 75px; 
+    margin: 10px;
 }
-
-
+.tamanho2{
+    background-color: rgb(134, 207, 255);
+    width: 400px;
+    border-radius: 14px;
+    display: flex;
+    padding: 75px;
+    margin: 10px; 
+}
 #primeira_linha{
     display: flex;
     gap: 20px;
 }
-/* Primeiro quadrado, Primeira linha*//* Primeiro quadrado, Primeira linha*//* Primeiro quadrado, Primeira linha*/
 
+/* Introdução */
+#imagem-robo {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
 .texto_bloco1 {
     color: rgb(0, 0, 145);
     font-family: 'Montserrat', sans-serif;
     width: 300px;
 }
-
 #tx1 {
     color: rgb(0, 0, 145);
     font-family: 'Montserrat', sans-serif;
 
     width: 275px;
 }
-
 #seta_azul{
     width: 20px;
     height: auto;
     margin-left: 10px;
 }
-
 #material {
     background-color: rgb(0, 0, 145);
     color:white;
@@ -59,7 +70,6 @@
     background-color: rgb(0, 0, 145);
     color:white;
     font-family: 'Montserrat', sans-serif;
-
     width: 275;
     border-radius: 14px;
     font-size: 14;
@@ -78,38 +88,33 @@
     background-color: rgb(0, 0, 145);
     color:white;
     font-family: 'Montserrat', sans-serif;
-
     width: 275;
     border-radius: 14px;
     font-size: 14;
     text-align: center;
 }
-
 .fale_comigo {
     background-color: rgb(0, 0, 145);
     color:white;
     font-family: 'Montserrat', sans-serif;
-
     width: 120px;
     border-radius: 14px;
     font-size: 8;
 }
-/* Segundo quadrado, Primeira linha*//* Segundo quadrado, Primeira linha*//* Segundo quadrado, Primeira linha*/
+/* Status de pedidos */
 
-#status_pedido {
+.t2_mensagem_maior {
     color: rgb(0, 0, 145);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
 }
-
-#all_pedidos {
+.t2_mensagem_menor {
     color: rgb(0, 0, 145);
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     margin-left: 100px;
 } 
-
 #minititulo {
     color: rgb(0, 0, 145);
     font-family: 'Montserrat', sans-serif;
@@ -161,7 +166,7 @@
     color: rgb(0, 0, 145);
     font-family: 'Montserrat', sans-serif;
     text-align: right;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 10px;
     display: flex;
     gap: 20px;
@@ -174,35 +179,29 @@
     text-align: left;
     margin-left: 1060px;
     margin-right: 10px;
-    font-size: 8px;
+    font-size: 12px;
 }
-
-#terceira_linha{
-    display: flex;
-    gap: 20px;
-}
+/* Ultimas compras */
 
 #menu_compras{
     display: flex;
     gap: 7px;
     flex-wrap: wrap;
 }
-
 .background_compras{
     background-color: aliceblue;
-    width: 140px;
+    width: 160px;
     border-radius: 14px;
 }
-
 .imagem_compra{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 .texto_compra{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
 }
-.circulo_azul{
+#circulo_azul{
     background-color: blue;
     border-radius: 40px;
     width: 10px;
@@ -219,32 +218,86 @@
     margin-left: 15px;
 }
 
+/* Mensagens e Alertas */
 
-
-.tamanho {
-    background-color: rgb(134, 207, 255);
-    width: 1230;
+.background_mensagem{
+    background-color: white;
     border-radius: 14px;
-    display: flex;
-    padding: 75px; 
-    margin: 10px;
-}
-.tamanho2{
-    background-color: rgb(134, 207, 255);
     width: 400px;
-    border-radius: 14px;
+    height: 60px;
     display: flex;
-    padding: 75px;
-    margin: 10px; 
+    gap: 60px;
+    margin: 20px;
+}
+.imagem_pessoa{
+    size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    margin-top: 3px;
+    margin-left: 5px;
+    display: flex;
+    gap: 60px;
+}
+#terceira_linha{
+    display: flex;
+    gap: 20px;
+}
+/*Status das requisições */
+
+.tabela{
+    background-color: aliceblue;
+    width: 1220px;
+    height: 75px;
+    display: flex;
+    gap: 20px;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 14px;
+    margin: 8px;
 }
 
-#imagem-robo {
-    width: 150px;
-    height: auto;
-    margin: 10px;
+/*Ultimas Transações */
+#textinhodireita{
+    color: rgb(0, 0, 145);
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 400px;
+    margin-bottom: 20px;
 }
-
-
+#textinhoesquerdo {
+    color: rgb(0, 0, 145);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+.background_transicao{
+    background-color: aliceblue;
+    width: 145px;
+    border-radius: 14px;
+}
+#ultima_transacao{
+    display: flex;
+    gap: 7px;
+}
+.texto_transicao{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#circulo_azul2{
+    background-color: blue;
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    margin-left: 210px;
+}
+.circulo_branco1{
+    background-color: white;
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+}
 
 /*Parte pg1*/
 #hd_pg{
