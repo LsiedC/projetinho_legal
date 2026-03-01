@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="pg1_body">
     <header id="hd_pg1">
         <h1>Component Customizing ;/SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
         <img id="linha_amarela" src="assets/imagens/unnamed.png" alt="">
@@ -120,43 +120,100 @@
         </section>
             
         <div class="tbl_esq">
-            <div class="titulos_tbls">
-                <h2>Overview Page Schema</h2>
-                <p>Toolbar Schema</p>
-                <p>Wire Schema</p>
+            <div class="schema_header">
+                <div class="tabs">
+                    <span class="active_tab">Overview Page Schema</span>
+                    <span>Toolbar Schema</span>
+                    <span>Wire Schema</span>
+                </div>
+
+                <div class="schema_actions">
+                    <button>Page Master Area</button>
+                    <button>Section</button>
+                    <button>UIBB</button>
+                    <button>Up</button>
+                    <button>Down</button>
+                    <button class="config_btn">Configure UIBB</button>
+                </div>
             </div>
 
-            <table>
-                    <tr>
-                        <th>Element</th>
-                        <th>Component</th>
-                        <th>Config ID</th>
-                        <th>Window Name</th>
-                    </tr>
-                    <tr>
-                        <td>Initial page</td>
-                        <td>INIT</td>
-                        <td>$OTR:/SCMT</td>
-                    </tr>
+            <table class="schema_table">
+                <tr>
+                    <th>Element</th>
+                    <th>Component</th>
+                    <th>Config ID</th>
+                    <th>Window Name</th>
+                </tr>
+                
+                <tr>
+                    <td>Section: SECTION_1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
 
-                    <tr>
-                        <td>Main Page</td>
-                        <td>MAIN</td>
-                        <td>$OTR:/SCMT</td>
-                    </tr>
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                    <td>TABBED_WINDOW</td>
+                </tr>
 
-                    <tr>
-                        <td>Main Page</td>
-                        <td>MAIN_FAST_EI</td>
-                        <td>$OTR:/SCMT</td>
-                    </tr>
-                    <tr>
-                        <td>Main Page</td>
-                        <td>MAIN_FAST_EI</td>
-                        <td>$OTR:/SCMT</td>
-                    </tr>
+                <tr class="selected">
+                    <td>UIBB: $OTR:/SCMTMS/UI...</td>
+                    <td>FPM_FORM_UIBB_GL2</td>
+                    <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI...</td>
+                    <td>FPM_TABBED_UIBB</td>
+                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                    <td>TABBED_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI...</td>
+                    <td>FPM_TREE_UIBB</td>
+                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                    <td>TABBED_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB: $OTR:/SCMTMS/UI...</td>
+                    <td>FPM_TABBED_UIBB</td>
+                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                    <td>TABBED_WINDOW</td>
+                </tr>
+
             </table>
-            
+            <div class="attributes">
+                <h3>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</h3>
+
+            <div class="form_grid">
+                <label>Window Name:</label>
+                <input type="text" value="FORM_WINDOW">
+
+                <label>Config ID:</label>
+                <input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
+
+                <label>Instance ID:</label>
+                <input type="text" value="$OTR:/SCMTMS/UI_CMN/ADM_INFO">
+
+                <label>Row Number:</label>
+                <select>
+                    <option>Visible</option>
+                    <option>Hidden</option>
+                    <option>Hidden and Excluded from Event Loop (Technical)</option>
+                </select>
+
+                <label>Default:</label>
+                <select>
+                    <option>Visible</option>
+                    <option>Hidden</option>
+                </select>
+            </div>
         </div>
     </main>
 </body>
