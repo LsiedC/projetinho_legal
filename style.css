@@ -100,14 +100,14 @@
     color: rgb(0, 0, 145);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
+    margin-right: 10px;
 }
 
 #all_pedidos {
     color: rgb(0, 0, 145);
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    text-align: right;
+    margin-left: 100px;
 } 
 
 #minititulo {
@@ -154,11 +154,74 @@
 #segunda_linha{
     display: flex;
     gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }
+.superioresq{
+    color: rgb(0, 0, 145);
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: 10px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.superiordir{
+    color: rgb(0, 0, 145);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 700px;
+    font-size: 8px;
+}
+
 #terceira_linha{
     display: flex;
     gap: 20px;
 }
+
+#menu_compras{
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.background_compras{
+    background-color: aliceblue;
+    width: 140px;
+    border-radius: 14px;
+}
+
+.imagem_compra{
+    width: 120px;
+    height: 120px;
+}
+.texto_compra{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.circulo_azul{
+    background-color: blue;
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    margin-left: 600px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.circulo_branco{
+    background-color: white;
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+
 .tamanho {
     background-color: rgb(134, 207, 255);
     width: 1230;
