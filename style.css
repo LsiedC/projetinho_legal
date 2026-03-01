@@ -264,10 +264,103 @@
     display: flex;
 }
 .tbl_esq{
-    margin: 0px auto auto 50px;
+    height: 100vh;
+    width: 100vw;
 }
 .titulos_tbls{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/*Parte restante*/
+#pg1_body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: 0;
+}
+
+.schema_header {
+    background: #e6e6e6;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.tabs span {
+    padding: 6px 10px;
+}
+
+.active_tab {
+    border-bottom: 3px solid #0070c0;
+    color: #0070c0;
+}
+
+.schema_actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.schema_actions button {
+    padding: 5px 10px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+
+.config_btn {
+    margin-left: auto;
+}
+
+.schema_table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.schema_table th,
+.schema_table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.schema_table th {
+    background: #f0f0f0;
+}
+
+.selected {
+    background-color: #cce4ff;
+}
+
+.attributes {
+    background: #ffffff;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.attributes h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.form_grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 8px 15px;
+    margin-top: 10px;
+}
+
+.form_grid input,
+.form_grid select {
+    padding: 5px;
+    border: 1px solid #bbb;
 }
