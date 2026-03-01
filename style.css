@@ -207,8 +207,6 @@
     width: 10px;
     height: 10px;
     margin-left: 600px;
-    display: flex;
-    gap: 7px;
     align-items: center;
 }
 .circulo_branco{
@@ -217,7 +215,7 @@
     width: 10px;
     height: 10px;
     align-items: center;
-    display: flex;
+    margin-left: 15px;
 }
 
 
@@ -364,3 +362,4 @@
     padding: 5px;
     border: 1px solid #bbb;
 }
+/*fim*/
